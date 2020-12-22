@@ -1,0 +1,20 @@
+name = input("What is your name? ")
+age = input("Hold old are you? ")
+weight = int(input("How much do you weigh? "))
+height = float(input("How tall are you? "))
+nationality = input("Where are you from? ")
+print('''Your name is {},
+         You are {} years old,
+         You weigh {} kgs
+         Your height is {} meters
+         You are from {} '''.format(name, age, weight, height, nationality))
+type_name = type(name)
+type_age = type(age)
+type_weight = type(weight)
+type_height = type(height)
+type_nationality = type(nationality)
+print('''Type of name is {}
+         age is {}
+         weight is {}
+         height is {}
+         nationality is {}'''.format(type_name, type_age, type_weight, type_height, type_nationality))
